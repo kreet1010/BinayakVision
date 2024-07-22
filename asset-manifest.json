@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/binayakvision/static/css/main.24c3b66c.css",
-    "main.js": "/binayakvision/static/js/main.a8f4056c.js",
+    "main.js": "/binayakvision/static/js/main.df22a32c.js",
     "static/js/453.2204e412.chunk.js": "/binayakvision/static/js/453.2204e412.chunk.js",
     "static/media/Carousel2.JPG": "/binayakvision/static/media/Carousel2.3946c265939dce1d21d6.JPG",
     "static/media/Carousel1.jpg": "/binayakvision/static/media/Carousel1.397d2e62f6ed4a67ef75.jpg",
@@ -16,11 +16,11 @@
     "static/media/aboutborder.jpeg": "/binayakvision/static/media/aboutborder.b3bbba7c9412d17162d6.jpeg",
     "index.html": "/binayakvision/index.html",
     "main.24c3b66c.css.map": "/binayakvision/static/css/main.24c3b66c.css.map",
-    "main.a8f4056c.js.map": "/binayakvision/static/js/main.a8f4056c.js.map",
+    "main.df22a32c.js.map": "/binayakvision/static/js/main.df22a32c.js.map",
     "453.2204e412.chunk.js.map": "/binayakvision/static/js/453.2204e412.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.24c3b66c.css",
-    "static/js/main.a8f4056c.js"
+    "static/js/main.df22a32c.js"
   ]
 }
