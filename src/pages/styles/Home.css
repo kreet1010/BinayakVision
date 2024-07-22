@@ -1,0 +1,172 @@
+.backgroundHolder{
+    margin-top:75px;
+    background-color: var(--bg-secondary);
+    background: url("../assets/BinayakVision.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width:100%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    overflow: hidden;
+    min-height: 825px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.welcome-txt{
+    width:100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    font-weight: 900;
+    
+}
+.welcome-txt h1{
+    margin-bottom: 0;
+}
+.welcome-txt p{
+    font-size: 100%;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.buttons{
+    display: flex;
+    gap: 3rem;
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:var(--main-clr);
+    padding:10px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 50%;
+    transition: 0.3s ease;
+}
+
+.plans:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: var(--main-clr);
+    box-shadow: 0 0 5px var(--main-clr);
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:var(--main-clr);
+    padding:10px;
+    cursor: pointer;
+    border-radius: 100px;
+    font-size: 50%;
+    transition: 0.3s ease;
+}
+
+.contact:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: var(--main-clr);
+    box-shadow: 0 0 5px var(--main-clr);
+}
+
+@media(max-width:900px){
+    .backgroundHolder{
+        background-color: var(--bg-secondary);
+        background: url("../assets/BinayakVision.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        width:100%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        overflow: hidden;
+        min-height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .welcome-txt{
+        width:100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-size: 200%;
+        font-weight: 900;
+        
+    }
+    .welcome-txt h1{
+        margin-bottom: 0;
+    }
+    .welcome-txt p{
+        font-size: 100%;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+    
+    .buttons{
+        display: flex;
+        gap: 3rem;
+    }
+    
+    .plans{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color:var(--main-clr);
+        padding:10px;
+        cursor: pointer;
+        border-radius: 100px;
+        font-size: 50%;
+        transition: 0.3s ease;
+    }
+    
+    .plans:hover{
+        transform: scale(1.1);
+        color: white;
+        background-color: var(--main-clr);
+        box-shadow: 0 0 5px var(--main-clr);
+    }
+    
+    .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color:var(--main-clr);
+        padding:10px;
+        cursor: pointer;
+        border-radius: 100px;
+        font-size: 50%;
+        transition: 0.3s ease;
+    }
+    
+    .contact:hover{
+        transform: scale(1.1);
+        color: white;
+        background-color: var(--main-clr);
+        box-shadow: 0 0 5px var(--main-clr);
+    }
+}

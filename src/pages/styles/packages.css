@@ -1,0 +1,110 @@
+.packages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 5%;
+    width:90%;
+    gap:3rem;
+}
+
+.card{
+    background-color: rgb(218, 218, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2% 4%;
+    gap: 2rem;
+    width:600px;
+    height: 400px;
+    margin-top: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.397);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.397);
+}
+
+.top{
+    display:flex;
+    justify-content: space-between;
+    height:70px;
+}
+
+.button{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 3%;
+    border-radius: 20px;
+    width: 480;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    background-color: green;
+}
+
+.mid{
+    font-size: 60%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 700px){
+    .card{
+        width:500px;
+        padding-top: 0;
+    }
+    .top{
+        padding: 0;
+        margin:0;
+        border-bottom: 2px solid black;
+    }
+    .mid{
+        border-bottom: 2px solid black;
+    }
+    .button{
+        font-size: 80%;
+    }
+}
+
+@media(max-width: 520px){
+    .card{
+        width:400px;
+        gap:0.5rem;
+    }
+}
+@media(max-width: 420px){
+    .card{
+        width:325px;
+        padding: 1rem;
+    }
+    .top{
+        height:70px;
+        font-size: 80%;
+    }
+    .mid{
+        font-size: 50%;
+    }
+}

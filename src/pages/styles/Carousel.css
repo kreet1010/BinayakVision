@@ -1,0 +1,39 @@
+.embla {
+    overflow: hidden;
+    margin-top:5%;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+img{
+    width:900px;
+    height: 550px;
+}
+
+@media(max-width:900px){
+    img{
+        width:700px;
+        height: 350px;
+    }
+}
+
+@media(max-width: 600px){
+    img{
+        width:450px;
+        height:225px;
+    }
+}
+
+@media(max-width: 450px){
+    img{
+        width:400px;
+        height:200px;
+    }
+}
